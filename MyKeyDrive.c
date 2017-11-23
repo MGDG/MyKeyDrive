@@ -56,7 +56,7 @@ static bool KeyList_Put(MYKEY_LINK_NODE **ListHead,MYKEY_LINK_NODE *KeyID)
 	MYKEY_LINK_NODE* p = NULL;
  	MYKEY_LINK_NODE* q = NULL;
 	
-	if(KeyID == NULL)				//加入的是空的定时器序号
+	if(KeyID == NULL)				//加入的是空的按键ID
 		return false;
 
 	if(*ListHead==NULL)				//链表为空
