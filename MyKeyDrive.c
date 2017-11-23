@@ -92,7 +92,7 @@ static bool KeyList_Put(MYKEY_LINK_NODE **ListHead,MYKEY_LINK_NODE *KeyID)
 
 /**
   * @brief	初始化按键消息队列
-  * @param	message_len：详细队列的长度
+  * @param	message_len：消息队列的长度
   *
   * @return	void
   * @remark 使用开辟内存的方式创建的队列，注意不要太长容易导致堆栈溢出
